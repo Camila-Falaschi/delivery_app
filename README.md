@@ -64,3 +64,27 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 - ![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
 - <img src="https://user-images.githubusercontent.com/102390423/227820045-f40c51e7-31fb-42c5-8022-0463851ee613.png" alt="sinon badge" width="100">
 
+
+## Installation
+1. Clone the repository
+  - Use the command: `git clone git@github.com:Camila-Falaschi/delivery_app.git`.
+  - Access the folder of the repository that you just cloned: `cd delivery_app`
+
+2. Install the dependencies
+  - Use the command: `npm install`
+
+## Usage
+
+
+## :beers: Developers
+<tr>
+  <td align="center">
+    <a href="https://github.com/Camila-Falaschi"><img src="https://avatars.githubusercontent.com/u/102390423?v=4" width="100px" alt="Camila Falaschi"/>br /><sub><b>Camila Falaschi</b></sub></a>
+  </td>
+  <td align="center">
+    <a href="https://github.com/PedroPA94"><img src="https://avatars.githubusercontent.com/u/75266925?v=4" width="100px" alt="Pedro Papini"/>br /><sub><b>Pedro Papini</b></sub></a>
+  </td>
+  <td align="center">
+    <a href="https://github.com/PedroPA94"><img src="https://avatars.githubusercontent.com/u/75266925?v=4" width="100px" alt="Pedro Papini"/>br /><sub><b>Pedro Papini</b></sub></a>
+  </td>
+</tr>
