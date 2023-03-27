@@ -77,17 +77,37 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 
 ## :beers: Developers
-<tr>
-  <td align="center">
-    <a href="https://github.com/Camila-Falaschi">
-      <img src="https://avatars.githubusercontent.com/u/102390423?v=4" width="100px" alt="Camila Falaschi"/>
-      <p>Camila Falaschi</p>
-    </a>
-  </td>
-  <td align="center">
-    <a href="https://github.com/PedroPA94">
-      <img src="https://avatars.githubusercontent.com/u/75266925?v=4" width="100px" alt="Pedro Papini"/>
-      <p>Pedro Papini</p>
-    </a>
-  </td>
-</tr>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Camila-Falaschi">
+        <img src="https://avatars.githubusercontent.com/u/102390423?v=4" width="100px" alt="Camila Falaschi"/>
+        <p>Camila Falaschi</p>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/PedroPA94">
+        <img src="https://avatars.githubusercontent.com/u/75266925?v=4" width="100px" alt="Pedro Papini"/>
+        <p>Pedro Papini</p>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rogelins">
+        <img src="https://avatars.githubusercontent.com/u/102386171?v=4" width="100px" alt="Rogerio Lins"/>
+        <p>Rogerio Lins</p>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/albertassihatus">
+        <img src="https://avatars.githubusercontent.com/u/78430305?v=4" width="100px" alt="Hatus Albertassi"/>
+        <p>Hatus Albertassi</p>
+      </a>
+    </td>
+        <td align="center">
+      <a href="https://github.com/trybe-tech-ops">
+        <img src="https://avatars.githubusercontent.com/u/82593112?v=4" width="100px" alt="Trybe"/>
+        <p>Trybe</p>
+      </a>
+    </td>
+  </tr>
+</table>
