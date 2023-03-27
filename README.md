@@ -6,6 +6,11 @@
   </p>
 </div>
 
+## About the project
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/102390423/227815559-1e477dad-c5ab-444b-b326-db4adbb2e3f5.png" alt="project gif" width="100">
+</div>
 
 This project is a delivery application developed for a company's customers, employees, and administrators. It allows product sales, registration of new users, order tracking, and user and order management.
 All users have access through login with different permissions. The app validates the type of user the account belongs to using JWT Token. Also, the seller can only see the orders related to their name.
@@ -26,10 +31,15 @@ Types of users and their permissions:
   - Register new users of any role type (seller, client, or administrator)
   - See the list of all users
 
-
-## A bit of context
+### A bit of context
 We created a persona to direct the functionalities that the app would have. And so, we have the following story:
 
 Mrs. Teresa's beer distributor was once a small company that served only a specific area of the city. However, with an exceptional sales team and competitively priced products, the business has flourished and expanded to other locations.
 So to speed up the delivery of its products, the company has more distribution points around the city, and one has a salesperson in charge of the place.
 However, its old system was a set of spreadsheets that is now unworkable for the business because it requires too much maintenance for its huge demand. Therefore, Mrs. Teresa looked for a team of developers to streamline the lives of her employees and the people who buy her products.
+
+### Demo
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/102390423/227815628-7b4ec35c-6153-4b79-8eb5-0e976c3a105b.gif" alt="project gif" width="100">
+</div>
