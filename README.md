@@ -13,6 +13,20 @@
 </div>
 
 
+## Table of Contents
+
+- [About the project](#about-the-project)
+  - [A bit of context](#a-bit-of-context)
+  - [Demo](#demo)
+- [Build with](#build-with)
+  - [Front-end](#front-end)
+  - [Back-end](#back-end)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Developers](#beers-developers)
+
+
+
 ## About the project
 
 This project is a delivery application developed for a company's customers, employees, and administrators. It allows product sales, registration of new users, order tracking, and user and order management.
