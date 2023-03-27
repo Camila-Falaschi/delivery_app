@@ -26,6 +26,8 @@
 - [Developers](#beers-developers)
 
 
+<br/>
+
 
 ## About the project
 
@@ -58,6 +60,10 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 ### Demo
 <img src="https://user-images.githubusercontent.com/102390423/227815628-7b4ec35c-6153-4b79-8eb5-0e976c3a105b.gif" alt="project gif" width="300">
 
+
+<br/>
+
+
 ## Build with
 
 #### Front-end
@@ -79,6 +85,9 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 - <img src="https://user-images.githubusercontent.com/102390423/227820045-f40c51e7-31fb-42c5-8022-0463851ee613.png" alt="sinon badge" width="100">
 
 
+<br/>
+
+
 ## Installation
 1. Clone the repository
    - Use the command: `git clone git@github.com:Camila-Falaschi/delivery_app.git`.
@@ -87,7 +96,14 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 2. Install the dependencies
    - Use the command: `npm install`
 
+
+<br/>
+
+
 ## Usage
+
+
+<br/>
 
 
 ## :beers: Developers
