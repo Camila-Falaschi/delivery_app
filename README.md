@@ -9,8 +9,10 @@
 ## About the project
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/102390423/227815559-1e477dad-c5ab-444b-b326-db4adbb2e3f5.png" alt="project gif" width="100">
+  <img src="https://user-images.githubusercontent.com/102390423/227815559-1e477dad-c5ab-444b-b326-db4adbb2e3f5.png" alt="project gif" width="500">
 </div>
+
+<br/>
 
 This project is a delivery application developed for a company's customers, employees, and administrators. It allows product sales, registration of new users, order tracking, and user and order management.
 All users have access through login with different permissions. The app validates the type of user the account belongs to using JWT Token. Also, the seller can only see the orders related to their name.
@@ -39,7 +41,4 @@ So to speed up the delivery of its products, the company has more distribution p
 However, its old system was a set of spreadsheets that is now unworkable for the business because it requires too much maintenance for its huge demand. Therefore, Mrs. Teresa looked for a team of developers to streamline the lives of her employees and the people who buy her products.
 
 ### Demo
-
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/102390423/227815628-7b4ec35c-6153-4b79-8eb5-0e976c3a105b.gif" alt="project gif" width="100">
-</div>
+<img src="https://user-images.githubusercontent.com/102390423/227815628-7b4ec35c-6153-4b79-8eb5-0e976c3a105b.gif" alt="project gif" width="300">
