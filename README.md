@@ -79,9 +79,15 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 ## :beers: Developers
 <tr>
   <td align="center">
-    <a href="https://github.com/Camila-Falaschi"><img src="https://avatars.githubusercontent.com/u/102390423?v=4" width="100px" alt="Camila Falaschi"/><br />Camila Falaschi</a>
+    <a href="https://github.com/Camila-Falaschi">
+      <img src="https://avatars.githubusercontent.com/u/102390423?v=4" width="100px" alt="Camila Falaschi"/>
+      <p>Camila Falaschi</p>
+    </a>
   </td>
   <td align="center">
-    <a href="https://github.com/PedroPA94"><img src="https://avatars.githubusercontent.com/u/75266925?v=4" width="100px" alt="Pedro Papini"/><br />Pedro Papini</a>
+    <a href="https://github.com/PedroPA94">
+      <img src="https://avatars.githubusercontent.com/u/75266925?v=4" width="100px" alt="Pedro Papini"/>
+      <p>Pedro Papini</p>
+    </a>
   </td>
 </tr>
