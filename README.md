@@ -67,11 +67,11 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 ## Installation
 1. Clone the repository
-  - Use the command: `git clone git@github.com:Camila-Falaschi/delivery_app.git`.
-  - Access the folder of the repository that you just cloned: `cd delivery_app`
+   - Use the command: `git clone git@github.com:Camila-Falaschi/delivery_app.git`.
+   - Access the folder of the repository that you just cloned: `cd delivery_app`
 
 2. Install the dependencies
-  - Use the command: `npm install`
+   - Use the command: `npm install`
 
 ## Usage
 
