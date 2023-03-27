@@ -103,7 +103,13 @@ However, its old system was a set of spreadsheets that is now unworkable for the
         <p>Hatus Albertassi</p>
       </a>
     </td>
-        <td align="center">
+    <td align="center">
+      <a href="https://github.com/ellenmelody">
+        <img src="https://avatars.githubusercontent.com/u/98178604?v=4" width="100px" alt="Ellen Melody"/>
+        <p>Ellen Melody</p>
+      </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/trybe-tech-ops">
         <img src="https://avatars.githubusercontent.com/u/82593112?v=4" width="100px" alt="Trybe"/>
         <p>Trybe</p>
