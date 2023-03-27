@@ -8,15 +8,28 @@
 
 
 This project is a delivery application developed for a company's customers, employees, and administrators. It allows product sales, registration of new users, order tracking, and user and order management.
+All users have access through login with different permissions. The app validates the type of user the account belongs to using JWT Token. Also, the seller can only see the orders related to their name.
 
-- Customer
-  The costumers can register themselves 
+Types of users and their permissions:
+- Customer can:
+  - Register a new account
+  - Buy from the list of products
+  - Check out their order before paying
+  - Keep track of their past orders
+  - See the details of the order
+  - Change the order status to received
+- Seller can:
+  - See the list of all current and past orders
+  - See the details of the order
+  - Approve, prepare, and deliver the order by changing its status
+- Administrator can:
+  - Register new users of any role type (seller, client, or administrator)
+  - See the list of all users
 
-- Seller
 
-- Administrator
+## A bit of context
+We created a persona to direct the functionalities that the app would have. And so, we have the following story:
 
-We created a persona that owns a beverage business that was migrating from a spreadsheet system to an application with a database.
-
-The app uses the Mobile-First strategy, with React and Styled-Components for a responsive design that adapts to different screen sizes.
-Also, we structured the application with the MSC (Model - Service - Controller) architecture and used MySQL as the database. As for user authentication, we use the JSON Web Token to redirect users according to their registration profile.
+Mrs. Teresa's beer distributor was once a small company that served only a specific area of the city. However, with an exceptional sales team and competitively priced products, the business has flourished and expanded to other locations.
+So to speed up the delivery of its products, the company has more distribution points around the city, and one has a salesperson in charge of the place.
+However, its old system was a set of spreadsheets that is now unworkable for the business because it requires too much maintenance for its huge demand. Therefore, Mrs. Teresa looked for a team of developers to streamline the lives of her employees and the people who buy her products.
