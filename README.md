@@ -30,7 +30,6 @@
 
 
 ## About the project
-
 This project is a delivery application developed for a company's customers, employees, and administrators. It allows product sales, registration of new users, order tracking, and user and order management.
 All users have access through login with different permissions. The app validates the type of user the account belongs to using JWT Token. Also, the seller can only see the orders related to their name.
 
@@ -50,6 +49,9 @@ Types of users and their permissions:
   - Register new users of any role type (seller, client, or administrator)
   - See the list of all users
 
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
+
+
 ### A bit of context
 We created a persona to direct the functionalities that the app would have. And so, we have the following story:
 
@@ -57,15 +59,18 @@ Mrs. Teresa's beer distributor was once a small company that served only a speci
 So to speed up the delivery of its products, the company has more distribution points around the city, and one has a salesperson in charge of the place.
 However, its old system was a set of spreadsheets that is now unworkable for the business because it requires too much maintenance for its huge demand. Therefore, Mrs. Teresa looked for a team of developers to streamline the lives of her employees and the people who buy her products.
 
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
+
+
 ### Demo
 <img src="https://user-images.githubusercontent.com/102390423/227815628-7b4ec35c-6153-4b79-8eb5-0e976c3a105b.gif" alt="project gif" width="300">
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
 <br/>
 
 
 ## Build with
-
 #### Front-end
 - ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 - ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
@@ -84,6 +89,8 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 - ![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
 - <img src="https://user-images.githubusercontent.com/102390423/227820045-f40c51e7-31fb-42c5-8022-0463851ee613.png" alt="sinon badge" width="100">
 
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
+
 
 <br/>
 
@@ -95,12 +102,14 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 2. Install the dependencies
    - Use the command: `npm install`
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
 <br/>
 
 
 ## Usage
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
 <br/>
@@ -147,3 +156,4 @@ However, its old system was a set of spreadsheets that is now unworkable for the
     </td>
   </tr>
 </table>
+<a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a>
