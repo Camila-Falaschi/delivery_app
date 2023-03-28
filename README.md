@@ -109,6 +109,18 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 
 ## Usage
+### Database
+#### ER Diagram
+#### Migrations and Seeders
+#### .env File
+#### Docker vs Local
+
+### API
+
+### Scripts root `packet.json`
+
+### Tests
+
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
