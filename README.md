@@ -23,6 +23,13 @@
   - [Back-end](#back-end)
 - [Installation](#installation)
 - [Usage](#usage)
+  - [Database](#database)
+    - [Migrations and Seeders](#migrations-and-seeders)
+    - [.env File](#env-file)
+    - [Docker vs Local](#docker-vs-local)
+  - [API](#api)
+  - [Scripts root packet.json](#scripts-root-packetjson)
+  - [Tests](#tests)
 - [Developers](#beers-developers)
 
 
@@ -71,23 +78,23 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 
 ## Build with
-#### Front-end
-- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-- ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-- <img src="https://user-images.githubusercontent.com/102390423/227817511-e68fa9dd-fbb5-42d9-b106-a583fcc7814c.png" alt="axios badge" width="150">
-- <img src="https://user-images.githubusercontent.com/102390423/227822689-3f4b1339-c886-4948-a789-924850d52286.png" alt="react testing library badge" width="165">
-- ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+  #### Front-end
+  - ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  - ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+  - <img src="https://user-images.githubusercontent.com/102390423/227817511-e68fa9dd-fbb5-42d9-b106-a583fcc7814c.png" alt="axios badge" width="150">
+  - <img src="https://user-images.githubusercontent.com/102390423/227822689-3f4b1339-c886-4948-a789-924850d52286.png" alt="react testing library badge" width="165">
+  - ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
 
-#### Back-end
-- ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-- ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
-- ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-- ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-- ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
-- ![Mocha](https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=Mocha&logoColor=white)
-- ![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
-- <img src="https://user-images.githubusercontent.com/102390423/227820045-f40c51e7-31fb-42c5-8022-0463851ee613.png" alt="sinon badge" width="100">
+  #### Back-end
+  - ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+  - ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+  - ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+  - ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+  - ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
+  - ![Mocha](https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=Mocha&logoColor=white)
+  - ![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
+  - <img src="https://user-images.githubusercontent.com/102390423/227820045-f40c51e7-31fb-42c5-8022-0463851ee613.png" alt="sinon badge" width="100">
 
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
@@ -109,17 +116,17 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 
 ## Usage
-### Database
-#### ER Diagram
-#### Migrations and Seeders
-#### .env File
-#### Docker vs Local
+  ### Database
+    #### ER Diagram
+    #### Migrations and Seeders
+    #### `.env` File
+    #### Docker vs Local
 
-### API
+  ### API
 
-### Scripts root `packet.json`
+  ### Scripts root `packet.json`
 
-### Tests
+  ### Tests
 
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
