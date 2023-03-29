@@ -25,8 +25,8 @@
 - [Usage](#usage)
   - [Database](#database)
     - [Migrations and Seeders](#migrations-and-seeders)
-    - [.env File](#env-file)
-    - [Docker vs Local](#docker-vs-local)
+    - [Example of an `.env` file](#env-file)
+    - [MySQL With Docker](#docker-vs-local)
   - [API](#api)
   - [Scripts root packet.json](#scripts-root-packetjson)
   - [Tests](#tests)
@@ -78,23 +78,23 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 
 ## Build with
-  #### Front-end
-  - ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-  - ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-  - <img src="https://user-images.githubusercontent.com/102390423/227817511-e68fa9dd-fbb5-42d9-b106-a583fcc7814c.png" alt="axios badge" width="150">
-  - <img src="https://user-images.githubusercontent.com/102390423/227822689-3f4b1339-c886-4948-a789-924850d52286.png" alt="react testing library badge" width="165">
-  - ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+#### Front-end
+- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+- <img src="https://user-images.githubusercontent.com/102390423/227817511-e68fa9dd-fbb5-42d9-b106-a583fcc7814c.png" alt="axios badge" width="150">
+- <img src="https://user-images.githubusercontent.com/102390423/227822689-3f4b1339-c886-4948-a789-924850d52286.png" alt="react testing library badge" width="165">
+- ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
 
-  #### Back-end
-  - ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-  - ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
-  - ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
-  - ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-  - ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
-  - ![Mocha](https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=Mocha&logoColor=white)
-  - ![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
-  - <img src="https://user-images.githubusercontent.com/102390423/227820045-f40c51e7-31fb-42c5-8022-0463851ee613.png" alt="sinon badge" width="100">
+#### Back-end
+- ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+- ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
+- ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+- ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+- ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
+- ![Mocha](https://img.shields.io/badge/Mocha-8D6748?style=for-the-badge&logo=Mocha&logoColor=white)
+- ![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
+- <img src="https://user-images.githubusercontent.com/102390423/227820045-f40c51e7-31fb-42c5-8022-0463851ee613.png" alt="sinon badge" width="100">
 
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
@@ -108,6 +108,7 @@ However, its old system was a set of spreadsheets that is now unworkable for the
    - Access the folder of the repository that you just cloned: `cd delivery_app`
 
 2. Install the dependencies
+
    - Use the command: `npm install`
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
@@ -116,17 +117,29 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 
 ## Usage
-  ### Database
-    #### ER Diagram
-    #### Migrations and Seeders
-    #### `.env` File
-    #### Docker vs Local
+To start the project you can type 
+  
+To start the project you need to:
+1. Create and configure an `.env` file with your environment variables, otherwise the database config is going to use the standart values.
+2. Have database MySQL installed and running in your computer or in a container([see how to use MySQL with Docker](#mysql-with-docker)).
 
-  ### API
+After that on the root terminal (`~/delivery_app`) you can create the database with the following script:
+- `npm run db:reset` - It's going to execute the `Sequelize` scripts
 
-  ### Scripts root `packet.json`
+3. Execute the migrations and populate the database with the seeders, to do this quicker, you can type on .
 
-  ### Tests
+
+### Database
+#### ER Diagram
+#### Migrations and Seeders
+#### Example of an `.env` file
+#### MySQL With Docker
+
+### API
+
+### Scripts root `packet.json`
+
+### Tests
 
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
