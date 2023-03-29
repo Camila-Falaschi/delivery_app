@@ -38,6 +38,7 @@
 
 ## About the project
 This project is a delivery application developed for a company's customers, employees, and administrators. It allows product sales, registration of new users, order tracking, and user and order management.
+
 All users have access through login with different permissions. The app validates the type of user the account belongs to using JWT Token. Also, the seller can only see the orders related to their name.
 
 Types of users and their permissions:
@@ -63,6 +64,7 @@ Types of users and their permissions:
 We created a persona to direct the functionalities that the app would have. And so, we have the following story:
 
 Mrs. Teresa's beer distributor was once a small company that served only a specific area of the city. However, with an exceptional sales team and competitively priced products, the business has flourished and expanded to other locations.
+
 So to speed up the delivery of its products, the company has more distribution points around the city, and one has a salesperson in charge of the place.
 However, its old system was a set of spreadsheets that is now unworkable for the business because it requires too much maintenance for its huge demand. Therefore, Mrs. Teresa looked for a team of developers to streamline the lives of her employees and the people who buy her products.
 
@@ -142,8 +144,10 @@ EVAL_ALWAYS_RESTORE_DEV_DB=true
 #### MySQL With Docker
 To use MySQL with Docker you need have docker installed in your machine, to verify it you can type in the command prompt:
 `docker --version`
+
 And it should return something similar to this:
 `Docker version 23.0.2`
+
 After that you can create the container with the command below, don't forget to change the container name and password.
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
 
