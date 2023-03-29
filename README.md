@@ -108,7 +108,7 @@ However, its old system was a set of spreadsheets that is now unworkable for the
    - Access the folder of the repository that you just cloned: `cd delivery_app`
 
 2. Install the dependencies
-   - Use the command `npm install` in the root (`~/delivery_app`), front-end (`~/delivery_app/front-end`) and back-end (`~/delivery_app/back-end`).
+   - Use the command `npm install` in the root (`~/delivery_app`), front-end (`~/delivery_app/front-end`) and back-end (`~/delivery_app/back-end`) directrories.
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
@@ -119,19 +119,27 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 To start the project you can type 
   
 To start the project you need to:
-1. Create and configure an `.env` file with your environment variables, otherwise the database config is going to use the standart values.
+1. Create and configure an `.env` file with your environment variables in the back-end directory, otherwise the database config is going to use the standart values.
 2. Have database MySQL installed and running in your computer or in a container([see how to use MySQL with Docker](#mysql-with-docker)).
 
-After that on the root terminal (`~/delivery_app`) you can create the database with the following script:
-- `npm run db:reset` - It's going to execute the `Sequelize` scripts
-
-3. Execute the migrations and populate the database with the seeders, to do this quicker, you can type on .
-
+After that on the root terminal (`~/delivery_app`) type:
+- `npm run db:reset` - It's going to execute the `Sequelize` scripts restoring the development database.
+- `npm run start` - Clean the 3000 and 3001 ports and start the aplication.
 
 ### Database
 #### ER Diagram
 #### Migrations and Seeders
 #### Example of an `.env` file
+```
+NODE_ENV=development
+API_PORT=3001
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_USER=root
+MYSQL_PASSWORD=DBpassword
+MYSQL_DB_NAME=delivery-app
+EVAL_ALWAYS_RESTORE_DEV_DB=true
+```
 #### MySQL With Docker
 
 ### API
