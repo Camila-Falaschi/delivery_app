@@ -127,7 +127,6 @@ After that on the root terminal (`~/delivery_app`) type:
 - `npm run start` - Clean the 3000 and 3001 ports and start the aplication.
 
 ### Database
-#### ER Diagram
 #### Migrations and Seeders
 #### Example of an `.env` file
 ```
@@ -141,6 +140,12 @@ MYSQL_DB_NAME=delivery-app
 EVAL_ALWAYS_RESTORE_DEV_DB=true
 ```
 #### MySQL With Docker
+To use MySQL with Docker you need have docker installed in your machine, to verify it you can type in the command prompt:
+`docker --version`
+And it should return something similar to this:
+`Docker version 23.0.2`
+After that you can create the container with the command below, don't forget to change the container name and password.
+`docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
 
 ### API
 
