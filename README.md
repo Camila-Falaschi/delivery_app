@@ -129,6 +129,9 @@ After that on the root terminal (`~/delivery_app`) type:
 The project was styled with the mobile first strategy, so for better visualization you can resize your screen to 360 x 800.
 
 ### Database
+#### ER Diagram
+![diagram-er](https://user-images.githubusercontent.com/102390423/229248544-f600aa1d-ed7b-4105-b5f4-c71909affad5.png)
+
 #### Migrations and Seeders
 #### Example of an `.env` file
 ```
@@ -141,6 +144,7 @@ MYSQL_PASSWORD=DBpassword
 MYSQL_DB_NAME=delivery-app
 EVAL_ALWAYS_RESTORE_DEV_DB=true
 ```
+
 #### MySQL With Docker
 To use MySQL with Docker you need have docker installed in your machine, to verify it you can type in the command prompt:
 `docker --version`
@@ -150,9 +154,6 @@ And it should return something similar to this:
 
 After that you can create the container with the command below, don't forget to change the container name and password.
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
-
-### ER Diagram
-![diagram-er](https://user-images.githubusercontent.com/102390423/229248544-f600aa1d-ed7b-4105-b5f4-c71909affad5.png)
 
 ### API
 
@@ -172,8 +173,9 @@ The team created an template on Figma to the planning of the project. You can ac
   <summary>
     <strong>Image</strong>
   </summary><br>
-  ![Group 2](https://user-images.githubusercontent.com/102390423/229236282-296acb2e-7827-4d8d-8c9f-9a6985ef262b.png)
+  <img src="https://user-images.githubusercontent.com/102390423/229236282-296acb2e-7827-4d8d-8c9f-9a6985ef262b.png" alt="figma design">
 </details>
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
 <br/>
