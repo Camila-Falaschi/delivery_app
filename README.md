@@ -118,8 +118,6 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 
 ## Usage
-To start the project you can type 
-  
 To start the project you need to:
 1. Create and configure an `.env` file with your environment variables in the back-end directory, otherwise the database config is going to use the standart values.
 2. Have database MySQL installed and running in your computer or in a container([see how to use MySQL with Docker](#mysql-with-docker)).
@@ -127,6 +125,8 @@ To start the project you need to:
 After that on the root terminal (`~/delivery_app`) type:
 - `npm run db:reset` - It's going to execute the `Sequelize` scripts restoring the development database.
 - `npm run start` - Clean the 3000 and 3001 ports and start the aplication.
+
+The project was styled with the mobile first strategy, so for better visualization you can resize your screen to 360 x 800.
 
 ### Database
 #### Migrations and Seeders
@@ -158,6 +158,14 @@ After that you can create the container with the command below, don't forget to 
 ### Tests
 
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
+
+
+<br/>
+
+
+## Figma Design
+
+![Group 2](https://user-images.githubusercontent.com/102390423/229236282-296acb2e-7827-4d8d-8c9f-9a6985ef262b.png)
 
 
 <br/>
