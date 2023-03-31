@@ -151,6 +151,9 @@ And it should return something similar to this:
 After that you can create the container with the command below, don't forget to change the container name and password.
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
 
+### ER Diagram
+![diagram-er](https://user-images.githubusercontent.com/102390423/229248544-f600aa1d-ed7b-4105-b5f4-c71909affad5.png)
+
 ### API
 
 ### Scripts root `packet.json`
@@ -164,8 +167,13 @@ After that you can create the container with the command below, don't forget to 
 
 
 ## Figma Design
-
-![Group 2](https://user-images.githubusercontent.com/102390423/229236282-296acb2e-7827-4d8d-8c9f-9a6985ef262b.png)
+The team created an template on Figma to the planning of the project. You can acess it <a href="https://www.figma.com/file/8quEpcnij9tGUC6bPR2kgW/Delivery-App?node-id=0%3A1&t=Amq0MaEjctZb8nPa-1">here</a>.
+<details>
+  <summary>
+    <strong>Image</strong>
+  </summary><br>
+  ![Group 2](https://user-images.githubusercontent.com/102390423/229236282-296acb2e-7827-4d8d-8c9f-9a6985ef262b.png)
+</details>
 
 
 <br/>
