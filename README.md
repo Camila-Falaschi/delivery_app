@@ -249,6 +249,7 @@ After that you can create the container with the command below, don't forget to 
   }
   ```
 </details>
+
 #### `/register`
 <details>
   <summary>
@@ -301,6 +302,7 @@ After that you can create the container with the command below, don't forget to 
   }
   ```
 </details>
+
 #### `/seller`
 <details>
   <summary>
@@ -319,9 +321,13 @@ After that you can create the container with the command below, don't forget to 
   ]
   ```
 </details>
+
 #### `/sale`
+
 #### `/customer`
+
 #### `/products`
+
 #### `/admin`
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
