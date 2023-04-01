@@ -29,7 +29,6 @@
     - [Example of an `.env` file](#env-file)
     - [MySQL With Docker](#docker-vs-local)
   - [API](#api)
-  - [Scripts root `packet.json`](#scripts-root-packetjson)
   - [Tests](#tests)
 - [Figma Design](#figma-design)
 - [Developers](#beers-developers)
@@ -129,10 +128,12 @@ After that on the root terminal (`~/delivery_app`) type:
 - `npm run start` - Clean the 3000 and 3001 ports and start the aplication.
 
 The project was styled with the mobile first strategy, so for better visualization you can resize your screen to 360 x 800.
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 ### Database
 #### ER Diagram
 ![diagram-er](https://user-images.githubusercontent.com/102390423/229248544-f600aa1d-ed7b-4105-b5f4-c71909affad5.png)
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 #### Seeders
 The database alredy come with three users and eleven drinks by default, and you can use them to use and test the application:
@@ -157,6 +158,7 @@ The database alredy come with three users and eleven drinks by default, and you 
   email: adm@deliveryapp.com
   password: --adm2@21!!--
   ```
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 #### Example of an `.env` file
 ```
@@ -169,6 +171,7 @@ MYSQL_PASSWORD=DBpassword
 MYSQL_DB_NAME=delivery-app
 EVAL_ALWAYS_RESTORE_DEV_DB=true
 ```
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 #### MySQL With Docker
 To use MySQL with Docker you need have docker installed in your machine, to verify it you can type in the command prompt:
@@ -179,6 +182,7 @@ And it should return something similar to this:
 
 After that you can create the container with the command below, don't forget to change the container name and password.
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
 <br/>
@@ -188,7 +192,7 @@ After that you can create the container with the command below, don't forget to 
 #### `/login`
 <details>
   <summary>
-    <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="translation icon" width="80">
+    <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
   </summary><br>
   
   **Parameters Example Values**
@@ -245,11 +249,10 @@ After that you can create the container with the command below, don't forget to 
   }
   ```
 </details>
-
 #### `/register`
 <details>
   <summary>
-    <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="translation icon" width="80">
+    <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
   </summary><br>
   
   **Parameters Example Values**
@@ -298,19 +301,29 @@ After that you can create the container with the command below, don't forget to 
   }
   ```
 </details>
-
-
 #### `/seller`
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
+  </summary><br>
+
+  **Responses**
+  
+  Status: 200 OK
+  ```
+  [
+    {
+      "id": 2,
+      "name": "Fulana Pereira"
+    }
+  ]
+  ```
+</details>
 #### `/sale`
 #### `/customer`
 #### `/products`
 #### `/admin`
-
-
-<br/>
-
-
-### Scripts root `packet.json`
+<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
 <br/>
