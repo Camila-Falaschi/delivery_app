@@ -191,18 +191,20 @@ After that you can create the container with the command below, don't forget to 
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="translation icon" width="80">
   </summary><br>
   
-  Parameters Example Values
+  **Parameters Example Values**
   ```
   {
     "email": "zebirita@email.com",
     "password": "$#zebirita#$"
   }
   ```
-  
-  Responses
+
+  <br />
+
+
+  **Responses**
   
   Status: 200 OK
-  
   ```
   {
     "name": "Cliente Zé Birita",
@@ -216,6 +218,16 @@ After that you can create the container with the command below, don't forget to 
   ```
   {
     "message": "Invalid empty fields"
+  }
+  ```
+  ```
+  {
+    "message": "Invalid email"
+  }
+  ```
+  ```
+  {
+    "message": "Password must have at least 6 characters"
   }
   ```
   
@@ -235,6 +247,59 @@ After that you can create the container with the command below, don't forget to 
 </details>
 
 #### `/register`
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="translation icon" width="80">
+  </summary><br>
+  
+  **Parameters Example Values**
+  ```
+  {
+    "name": "New Name Example",
+    "email": "example@email.com",
+    "password": "123456"
+  }
+  ```
+
+  <br />
+
+
+  **Responses**
+  
+  Status: 201 Created  
+  ```
+  {
+    "name": "New Name Example",
+    "email": "example@email.com",
+    "role": "customer",
+    "token": "jsonwebtoken"
+  }
+  ```
+  
+  Status: 400 Bad Request
+  ```
+  {
+    "message": "Invalid empty fields"
+  }
+  ```
+  ```
+  {
+    "message": "Username must have at least 12 characters"
+  }
+  ```
+  ```
+  {
+    "message": "Invalid email"
+  }
+  ```
+  ```
+  {
+    "message": "Password must have at least 6 characters"
+  }
+  ```
+</details>
+
+
 #### `/seller`
 #### `/sale`
 #### `/customer`
