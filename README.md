@@ -24,12 +24,14 @@
 - [Installation](#installation)
 - [Usage](#usage)
   - [Database](#database)
-    - [Migrations and Seeders](#migrations-and-seeders)
+    - [ER Diagram](#er-diagram)
+    - [Seeders](#seeders)
     - [Example of an `.env` file](#env-file)
     - [MySQL With Docker](#docker-vs-local)
   - [API](#api)
   - [Scripts root `packet.json`](#scripts-root-packetjson)
   - [Tests](#tests)
+- [Figma Design](#figma-design)
 - [Developers](#beers-developers)
 
 
@@ -132,7 +134,24 @@ The project was styled with the mobile first strategy, so for better visualizati
 #### ER Diagram
 ![diagram-er](https://user-images.githubusercontent.com/102390423/229248544-f600aa1d-ed7b-4105-b5f4-c71909affad5.png)
 
-#### Migrations and Seeders
+#### Seeders
+The database alredy come with three users and eleven drinks by default, and you can use them to use and test the application:
+
+- Client:
+  name: Cliente Zé Birita
+  email: zebirita@email.com
+  password: $#zebirita#$
+
+- Seller:
+  name: Fulana Pereira
+  email: fulana@deliveryapp.com
+  password: fulana@123
+  
+- Admin:
+  name: Delivery App Admin
+  email: adm@deliveryapp.com
+  password: --adm2@21!!--
+
 #### Example of an `.env` file
 ```
 NODE_ENV=development
@@ -156,6 +175,44 @@ After that you can create the container with the command below, don't forget to 
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
 
 ### API
+<details>
+  <summary>
+    <strong>/login</strong>
+  </summary><br>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="translation icon" width="20">
+  </summary><br>
+</details>
+<details>
+  <summary>
+    <strong>/register</strong>
+  </summary><br>
+</details>
+<details>
+  <summary>
+    <strong>/seller</strong>
+  </summary><br>
+</details>
+<details>
+  <summary>
+    <strong>/sale</strong>
+  </summary><br>
+</details>
+<details>
+  <summary>
+    <strong>/customer</strong>
+  </summary><br>
+</details>
+<details>
+  <summary>
+    <strong>/products</strong>
+  </summary><br>
+</details>
+<details>
+  <summary>
+    <strong>/admin</strong>
+  </summary><br>
+</details>
 
 ### Scripts root `packet.json`
 
@@ -168,7 +225,7 @@ After that you can create the container with the command below, don't forget to 
 
 
 ## Figma Design
-The team created an template on Figma to the planning of the project. You can acess it <a href="https://www.figma.com/file/8quEpcnij9tGUC6bPR2kgW/Delivery-App?node-id=0%3A1&t=Amq0MaEjctZb8nPa-1">here</a>.
+The team created an template on Figma for the planning of the project. You can acess it <a href="https://www.figma.com/file/8quEpcnij9tGUC6bPR2kgW/Delivery-App?node-id=0%3A1&t=Amq0MaEjctZb8nPa-1">here</a>.
 <details>
   <summary>
     <strong>Image</strong>
