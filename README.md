@@ -180,12 +180,58 @@ And it should return something similar to this:
 After that you can create the container with the command below, don't forget to change the container name and password.
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
 
+
+<br/>
+
+
 ### API
 #### `/login`
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="translation icon" width="80">
   </summary><br>
+  
+  Parameters Example Values
+  ```
+  {
+    "email": "zebirita@email.com",
+    "password": "$#zebirita#$"
+  }
+  ```
+  
+  Responses
+  
+  Status: 200 OK
+  
+  ```
+  {
+    "name": "Cliente Zé Birita",
+    "email": "zebirita@email.com",
+    "role": "customer",
+    "token": "jsonwebtoken"
+  }
+  ```
+  
+  Status: 400 Bad Request
+  ```
+  {
+    "message": "Invalid empty fields"
+  }
+  ```
+  
+  Status: 401 Unauthorized
+  ```
+  {
+    "message": "Incorrect password"
+  }
+  ```
+  
+  Status: 404 Not Found
+  ```
+  {
+    "message": "User not found"
+  }
+  ```
 </details>
 
 #### `/register`
@@ -195,7 +241,15 @@ After that you can create the container with the command below, don't forget to 
 #### `/products`
 #### `/admin`
 
+
+<br/>
+
+
 ### Scripts root `packet.json`
+
+
+<br/>
+
 
 ### Tests
 
