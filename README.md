@@ -138,19 +138,25 @@ The project was styled with the mobile first strategy, so for better visualizati
 The database alredy come with three users and eleven drinks by default, and you can use them to use and test the application:
 
 - Client:
+  ```
   name: Cliente Zé Birita
   email: zebirita@email.com
   password: $#zebirita#$
+  ```
 
 - Seller:
+  ```
   name: Fulana Pereira
   email: fulana@deliveryapp.com
   password: fulana@123
-  
+  ```
+
 - Admin:
+  ```
   name: Delivery App Admin
   email: adm@deliveryapp.com
   password: --adm2@21!!--
+  ```
 
 #### Example of an `.env` file
 ```
@@ -175,44 +181,19 @@ After that you can create the container with the command below, don't forget to 
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
 
 ### API
+- `/login`
 <details>
-  <summary>
-    <strong>/login</strong>
-  </summary><br>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="translation icon" width="20">
   </summary><br>
 </details>
-<details>
-  <summary>
-    <strong>/register</strong>
-  </summary><br>
-</details>
-<details>
-  <summary>
-    <strong>/seller</strong>
-  </summary><br>
-</details>
-<details>
-  <summary>
-    <strong>/sale</strong>
-  </summary><br>
-</details>
-<details>
-  <summary>
-    <strong>/customer</strong>
-  </summary><br>
-</details>
-<details>
-  <summary>
-    <strong>/products</strong>
-  </summary><br>
-</details>
-<details>
-  <summary>
-    <strong>/admin</strong>
-  </summary><br>
-</details>
+
+- `/register`
+- `/seller`
+- `/sale`
+- `/customer`
+- `/products`
+- `/admin`
 
 ### Scripts root `packet.json`
 
