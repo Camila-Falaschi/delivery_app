@@ -181,19 +181,19 @@ After that you can create the container with the command below, don't forget to 
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
 
 ### API
-- `/login`
+#### `/login`
 <details>
   <summary>
-    <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="translation icon" width="20">
+    <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="translation icon" width="80">
   </summary><br>
 </details>
 
-- `/register`
-- `/seller`
-- `/sale`
-- `/customer`
-- `/products`
-- `/admin`
+#### `/register`
+#### `/seller`
+#### `/sale`
+#### `/customer`
+#### `/products`
+#### `/admin`
 
 ### Scripts root `packet.json`
 
