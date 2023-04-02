@@ -90,6 +90,7 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 
 #### Back-end
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 - ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
 - ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 - ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
@@ -308,7 +309,7 @@ After that you can create the container with the command below, don't forget to 
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
   </summary><br>
-
+  
   **Responses**
   
   Status: 200 OK
@@ -325,8 +326,82 @@ After that you can create the container with the command below, don't forget to 
 #### `/sale`
 
 #### `/customer`
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
+    
+    `/products`
+    
+  </summary><br>
+
+  **Responses**
+  
+  Status: 200 OK
+  ```
+  [
+    {
+      "id": 1,
+      "name": "Skol Lata 250ml",
+      "price": "2.20",
+      "url_image": "http://localhost:3001/images/skol_lata_350ml.png"
+    },
+    {
+      "id": 2,
+      "name": "Heineken 600ml",
+      "price": "7.50",
+      "url_image": "http://localhost:3001/images/heineken_600ml.png"
+    },
+    ...
+  ]
+  ```
+</details>
 
 #### `/products`
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
+  </summary><br>
+  
+  **Headers Parameter**
+  ```
+  Authorization: JsonWebToken
+  ```
+
+  <br />
+
+
+  **Responses**
+  
+  Status: 200 OK
+  ```
+  [
+    {
+      "id": 1,
+      "name": "Skol Lata 250ml",
+      "price": "2.20",
+      "url_image": "http://localhost:3001/images/skol_lata_350ml.png"
+    },
+    {
+      "id": 2,
+      "name": "Heineken 600ml",
+      "price": "7.50",
+      "url_image": "http://localhost:3001/images/heineken_600ml.png"
+    },
+    ...
+  ]
+  ```
+  Status: 404 Not Found
+  ```
+  {
+    "message": "Token not found"
+  }
+  ```
+  ```
+  {
+    "message": "Expired or invalid token"
+  }
+  ```
+</details>
 
 #### `/admin`
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
@@ -336,6 +411,8 @@ After that you can create the container with the command below, don't forget to 
 
 
 ### Tests
+To run the tests you can go to the terminal of the front-end and back-end directories and type the command `ǹpm test` or `npm run test`.
+Ps.: The tests of front-end migth show that some tests failed because after the development the team focused on the app design and erased some data-testids.
 
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
