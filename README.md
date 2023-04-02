@@ -120,15 +120,14 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 
 ## Usage
-To start the project you need to:
-1. Create and configure an `.env` file with your environment variables in the back-end directory, otherwise the database config is going to use the standart values.
-2. Have database MySQL installed and running in your computer or in a container([see how to use MySQL with Docker](#mysql-with-docker)).
+To start the project, follow these steps:
+1. Create and configure an `.env` file with your environment variables in the back-end directory. Otherwise, the database configuration will use the default values.
+2. Install MySQL database and ensure it is running on your computer or in a container ([see how to use MySQL with Docker](#mysql-with-docker)).
+3. Open the root terminal (`~/delivery_app`) and run the following commands:
+- `npm run db:reset` - This will execute the Sequelize scripts and restore the development database.
+- `npm run start` - This will clean the 3000 and 3001 ports and start the application.
 
-After that on the root terminal (`~/delivery_app`) type:
-- `npm run db:reset` - It's going to execute the `Sequelize` scripts restoring the development database.
-- `npm run start` - Clean the 3000 and 3001 ports and start the aplication.
-
-The project was styled with the mobile first strategy, so for better visualization you can resize your screen to 360 x 800.
+Note: The project was designed with a mobile-first strategy. For the best experience, resize your screen to 360 x 800.
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 ### Database
@@ -137,7 +136,7 @@ The project was styled with the mobile first strategy, so for better visualizati
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 #### Seeders
-The database alredy come with three users and eleven drinks by default, and you can use them to use and test the application:
+The database comes with three default users (client, seller, and admin) and eleven default drinks. You can use the following credentials to test the application:
 
 - Client:
   ```
@@ -175,14 +174,15 @@ EVAL_ALWAYS_RESTORE_DEV_DB=true
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 #### MySQL With Docker
-To use MySQL with Docker you need have docker installed in your machine, to verify it you can type in the command prompt:
+To use MySQL with Docker, you need to have Docker installed on your machine. To check if you have Docker installed, open the command prompt and type:
 `docker --version`
 
-And it should return something similar to this:
+This command should return something similar to this:
 `Docker version 23.0.2`
 
-After that you can create the container with the command below, don't forget to change the container name and password.
+Once you have Docker installed, you can create the container with the following command. Remember to change the container name and password:
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
+This command will create a MySQL container with the name `container-mysql`, set the root password to `senha-mysql`, and expose the MySQL port 3306 to your local port 3306.
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
@@ -765,8 +765,8 @@ After that you can create the container with the command below, don't forget to 
 
 
 ### Tests
-To run the tests you can go to the terminal of the front-end and back-end directories and type the command `ǹpm test` or `npm run test`.
-Ps.: The tests of front-end migth show that some tests failed because after the development the team focused on the app design and erased some data-testids.
+To run the tests, open the terminal in both the front-end and back-end directories and type the command `ǹpm test` or `npm run test`.
+Note that the front-end tests might fail due to missing `data-testid` attributes. The team removed some `data-testid` attributes after the development phase to focus on app design.
 
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
