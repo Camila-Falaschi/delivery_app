@@ -204,6 +204,7 @@ After that you can create the container with the command below, don't forget to 
   }
   ```
 
+  
   <br />
 
 
@@ -266,6 +267,7 @@ After that you can create the container with the command below, don't forget to 
   }
   ```
 
+  
   <br />
 
 
@@ -324,14 +326,174 @@ After that you can create the container with the command below, don't forget to 
 </details>
 
 #### `/sale`
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
+  </summary><br>
+  
+  **Parameters Example Values**
+  ```
+  {
+    "cart": [
+      {
+        "id": 1,
+        "name": "Skol Lata 250ml",
+        "quantity": 2,
+        "unityPrice": 2.30,
+        "subTotal": 4.60
+      },
+      {
+        "id": 2,
+        "name": "Heineken 600ml",
+        "quantity": 1,
+        "unityPrice": 1.20,
+        "subTotal": 1.20
+      }
+    ],
+    "totalPrice": 88.8,
+    "sellerId": 1,
+    "deliveryAddress": "R. Somewhere, Place Anywhere - NW",
+    "deliveryNumber": 121,
+    "userEmail": "zebirita@email.com"
+  }
+  ```
+  
+  
+  <br />
+
+
+  **Responses**
+  
+  Status: 201 Created
+  ```
+  {
+    "saleId": 1
+  }
+  ```
+</details>
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229361492-4190f567-633e-4812-bbf9-8a6e3eea9292.png" alt="put icon" width="80">   
+    
+    /sale/orders
+  </summary><br>
+
+  Orders Status:
+  - "Pendente"
+  - "Preparando"
+  - "Em Trânsito"
+  - "Entregue"
+    
+  **Parameters Example Values**
+  ```
+  {
+    "saleId": 1, 
+    "status": "Preparando"
+  }
+  ```
+  
+  
+  <br />
+
+
+  **Responses**
+  
+  Status: 200 OK
+  ```
+  [
+    1   // saleId
+  ]
+  ```
+</details>
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">   
+  </summary><br>
+
+  **Responses**
+  
+  Status: 200 OK
+  ```
+  [
+    {
+      "saleDate": "2023-04-02 15:23:10 +00:00",
+      "id": 1,
+      "status": "Preparando",
+      "totalPrice": "88.80",
+      "deliveryAddress": "R. Somewhere, Place Anywhere - NW"
+    },
+    {
+      "saleDate": "2023-04-02 15:23:10 +00:00",
+      "id": 2,
+      "status": "Pendente",
+      "totalPrice": "88.80",
+      "deliveryAddress": "R. Somewhere, Place Anywhere - NW"
+    }
+  ]
+  ```
+</details>
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
+        
+    /sale/:id
+  </summary><br>
+
+  **Responses**
+  
+  Status: 200 OK
+  ```
+  [
+    {
+      "saleId": 2,
+      "productId": 1,
+      "quantity": 2,
+      "product": {
+        "id": 1,
+        "name": "Skol Lata 250ml",
+        "price": "2.20"
+      },
+      "sale": {
+        "saleDate": "2023-04-02 15:24:28 +00:00",
+        "userId": 3,
+        "sellerId": 1,
+        "totalPrice": "88.80",
+        "deliveryAddress": "R. Somewhere, Place Anywhere - NW",
+        "deliveryNumber": "121",
+        "status": "Pendente",
+        "seller_id": 1
+      }
+    },
+    {
+      "saleId": 2,
+      "productId": 2,
+      "quantity": 1,
+      "product": {
+        "id": 2,
+        "name": "Heineken 600ml",
+        "price": "7.50"
+      },
+      "sale": {
+        "saleDate": "2023-04-02 15:24:28 +00:00",
+        "userId": 3,
+        "sellerId": 1,
+        "totalPrice": "88.80",
+        "deliveryAddress": "R. Somewhere, Place Anywhere - NW",
+        "deliveryNumber": "121",
+        "status": "Pendente",
+        "seller_id": 1
+      }
+    }
+  ]
+  ```
+</details>
 
 #### `/customer`
 <details>
   <summary>
-    <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
+    <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">   
     
-    `/products`
-    
+    /customer/products
   </summary><br>
 
   **Responses**
@@ -367,6 +529,7 @@ After that you can create the container with the command below, don't forget to 
   Authorization: JsonWebToken
   ```
 
+  
   <br />
 
 
@@ -404,6 +567,189 @@ After that you can create the container with the command below, don't forget to 
 </details>
 
 #### `/admin`
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
+  </summary><br>
+  
+  **Headers Parameter**
+  ```
+  Authorization: JsonWebToken
+  ```
+
+  
+  <br />
+
+
+  **Responses**
+  
+  Status: 200 OK
+  ```
+  [
+    {
+      "id": 2,
+      "name": "Fulana Pereira",
+      "email": "fulana@deliveryapp.com",
+      "role": "seller"
+    },
+    {
+      "id": 3,
+      "name": "Cliente Zé Birita",
+      "email": "zebirita@email.com",
+      "role": "customer"
+    }
+  ]
+  ```
+  
+  Status: 401 Unauthorized
+  ```
+  {
+    "message": "Unauthorized"
+  }
+  ```
+  
+  Status: 404 Not Found
+  ```
+  {
+    "message": "Token not found"
+  }
+  ```
+  ```
+  {
+    "message": "Expired or invalid token"
+  }
+  ```
+</details>
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
+  </summary><br>
+ 
+  **Headers Parameter**
+  ```
+  Authorization: JsonWebToken
+  ```
+
+  
+  <br />
+
+
+  **Parameters Example Values**
+  ```
+  {
+    "name": "New Name Example",
+    "email": "example@email.com",
+    "password": "123456"
+  }
+  ```
+
+  
+  <br />
+
+
+  **Responses**
+  
+  Status: 201 Created  
+  ```
+  {
+    "name": "New Name Example",
+    "email": "example@email.com",
+    "role": "customer",
+    "token": "jsonwebtoken"
+  }
+  ```
+  
+  Status: 400 Bad Request
+  ```
+  {
+    "message": "Invalid empty fields"
+  }
+  ```
+  ```
+  {
+    "message": "Username must have at least 12 characters"
+  }
+  ```
+  ```
+  {
+    "message": "Invalid email"
+  }
+  ```
+  ```
+  {
+    "message": "Password must have at least 6 characters"
+  }
+  ```
+   
+  Status: 401 Unauthorized
+  ```
+  {
+    "message": "Unauthorized"
+  }
+  ```
+  
+  Status: 404 Not Found
+  ```
+  {
+    "message": "Token not found"
+  }
+  ```
+  ```
+  {
+    "message": "Expired or invalid token"
+  }
+  ```
+  
+  Status: 409 Conflict
+  ```
+  {
+    "message": "User already exist"
+  }
+  ```
+</details>
+<details>
+  <summary>
+    <img src="https://user-images.githubusercontent.com/102390423/229363520-c54cf826-9995-48ae-9547-bf4c0f658d56.png" alt="get icon" width="80">
+        
+    /admin/:id
+  </summary><br>
+  
+  **Headers Parameter**
+  ```
+  Authorization: JsonWebToken
+  ```
+  
+
+  <br />
+
+  
+  **Responses**
+  
+  Status: 201 Created
+  ```
+
+  ```
+  
+  Status: 401 Unauthorized
+  ```
+  {
+    "message": "Unauthorized"
+  }
+  ```
+  
+  Status: 404 Not Found
+  ```
+  {
+    "message": "Token not found"
+  }
+  ```
+  ```
+  {
+    "message": "Expired or invalid token"
+  }
+  ```
+</details>
+
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
