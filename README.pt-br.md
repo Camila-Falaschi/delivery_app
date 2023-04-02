@@ -119,33 +119,34 @@ Para acelerar a entrega de seus produtos, a empresa possui mais pontos de distri
 <br/>
 
 
-## Usage
-To start the project, follow these steps:
-1. Create and configure an `.env` file with your environment variables in the back-end directory. Otherwise, the database configuration will use the default values.
-2. Install MySQL database and ensure it is running on your computer or in a container ([see how to use MySQL with Docker](#mysql-with-docker)).
-3. Open the root terminal (`~/delivery_app`) and run the following commands:
-- `npm run db:reset` - This will execute the Sequelize scripts and restore the development database.
-- `npm run start` - This will clean the 3000 and 3001 ports and start the application.
+## Uso
+Para iniciar o projeto, siga os seguintes passos:
 
-Note: The project was designed with a mobile-first strategy. For the best experience, resize your screen to 360 x 800.
+1. Crie e configure um arquivo `.env` com as suas variáveis de ambiente no diretório back-end. Caso contrário, a configuração do banco de dados usará os valores padrão.
+2. Instale o banco de dados MySQL e verifique se ele está sendo executado no seu computador ou em um contêiner ([veja como usar o MySQL com o Docker](#mysql-with-docker)).
+3. Abra o terminal na pasta raiz (`~/delivery_app`) e execute os seguintes comandos:
+- `npm run db:reset` - Isso executará os scripts do Sequelize e restaurará o banco de dados de desenvolvimento.
+- `npm run start` - Isso limpará as portas 3000 e 3001 e iniciará a aplicação.
+
+Observação: O projeto foi projetado com uma estratégia "mobile-first". Para obter a melhor experiência, redimensione sua tela para 360 x 800.
 <p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
-### Database
-#### ER Diagram
+### Banco de Dados
+#### Diagrama ER
 ![diagram-er](https://user-images.githubusercontent.com/102390423/229248544-f600aa1d-ed7b-4105-b5f4-c71909affad5.png)
 <p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 #### Seeders
-The database comes with three default users (client, seller, and admin) and eleven default drinks. You can use the following credentials to test the application:
+O banco de dados vem com três usuários padrões (cliente, vendedor e administrador) e onze bebidas padrões. Você pode usar as seguintes credenciais para testar o aplicativo:
 
-- Client:
+- Cliente:
   ```
   name: Cliente Zé Birita
   email: zebirita@email.com
   password: $#zebirita#$
   ```
 
-- Seller:
+- Vendedor:
   ```
   name: Fulana Pereira
   email: fulana@deliveryapp.com
@@ -160,7 +161,7 @@ The database comes with three default users (client, seller, and admin) and elev
   ```
 <p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
-#### Example of an `.env` file
+#### Exemplo de um arquivo `.env`
 ```
 NODE_ENV=development
 API_PORT=3001
@@ -173,16 +174,17 @@ EVAL_ALWAYS_RESTORE_DEV_DB=true
 ```
 <p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
-#### MySQL With Docker
-To use MySQL with Docker, you need to have Docker installed on your machine. To check if you have Docker installed, open the command prompt and type:
+#### MySQL com Docker
+Para usar o MySQL com Docker, você precisa ter o Docker instalado em sua máquina. Para verificar se você tem o Docker instalado, abra o prompt de comando e digite:
 `docker --version`
 
-This command should return something similar to this:
+Este comando deve retornar algo semelhante a:
 `Docker version 23.0.2`
 
-Once you have Docker installed, you can create the container with the following command. Remember to change the container name and password:
+Depois de ter o Docker instalado, você pode criar o contêiner com o seguinte comando. Lembre-se de alterar o nome do contêiner e a senha:
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
 This command will create a MySQL container with the name `container-mysql`, set the root password to `senha-mysql`, and expose the MySQL port 3306 to your local port 3306.
+Este comando criará um contêiner MySQL com o nome `container-mysql`, irá definir a senha de root como `senha-mysql` e irá expor a porta MySQL 3306 para a porta local 3306.
 <p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 
