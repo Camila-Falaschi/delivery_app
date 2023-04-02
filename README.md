@@ -27,7 +27,7 @@
     - [ER Diagram](#er-diagram)
     - [Seeders](#seeders)
     - [Example of an `.env` file](#example-of-an-env-file)
-    - [MySQL With Docker](#docker-vs-local)
+    - [MySQL With Docker](#mysql-with-docker)
   - [API](#api)
   - [Tests](#tests)
 - [Figma Design](#figma-design)
