@@ -766,6 +766,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
 
 ### Tests
 To run the tests, open the terminal in both the front-end and back-end directories and type the command `npm test` or `npm run test`.
+
 Note that the front-end tests might fail due to missing `data-testid` attributes. The team removed some `data-testid` attributes after the development phase to focus on app design.
 
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
