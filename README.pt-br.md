@@ -59,7 +59,7 @@ Tipos de usuários e suas permissões:
   - Registrar novos usuários de qualquer tipo de função (vendedor, cliente ou administrador)
   - Ver a lista de todos os usuários
 
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 
 ### Um pouco de contexto
@@ -69,12 +69,12 @@ A distribuidora de cerveja da Dona Teresa era antes uma pequena empresa que aten
 
 Para acelerar a entrega de seus produtos, a empresa possui mais pontos de distribuição ao redor da cidade, e cada um tem um vendedor responsável pelo local. No entanto, o antigo sistema era um conjunto de planilhas que agora é inviável para o negócio, pois requer muita manutenção para sua enorme demanda. Portanto, a Dona Teresa procurou uma equipe de desenvolvedores para simplificar a vida de seus funcionários e das pessoas que compram seus produtos.
 
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 
 ### Demo
 <img src="https://user-images.githubusercontent.com/102390423/227815628-7b4ec35c-6153-4b79-8eb5-0e976c3a105b.gif" alt="project gif" width="300">
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 
 <br/>
@@ -100,7 +100,7 @@ Para acelerar a entrega de seus produtos, a empresa possui mais pontos de distri
 - ![Chai](https://img.shields.io/badge/chai-A30701?style=for-the-badge&logo=chai&logoColor=white)
 - <img src="https://user-images.githubusercontent.com/102390423/227820045-f40c51e7-31fb-42c5-8022-0463851ee613.png" alt="sinon badge" width="100">
 
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 
 <br/>
@@ -113,7 +113,7 @@ Para acelerar a entrega de seus produtos, a empresa possui mais pontos de distri
 
 2. Instale as dependências:
    - Execute o comando `npm install` no diretório raiz (`~/delivery_app`), no diretório front-end (`~/delivery_app/front-end`), e no diretório back-end (`~/delivery_app/back-end`).
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 
 <br/>
@@ -128,12 +128,12 @@ To start the project, follow these steps:
 - `npm run start` - This will clean the 3000 and 3001 ports and start the application.
 
 Note: The project was designed with a mobile-first strategy. For the best experience, resize your screen to 360 x 800.
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 ### Database
 #### ER Diagram
 ![diagram-er](https://user-images.githubusercontent.com/102390423/229248544-f600aa1d-ed7b-4105-b5f4-c71909affad5.png)
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 #### Seeders
 The database comes with three default users (client, seller, and admin) and eleven default drinks. You can use the following credentials to test the application:
@@ -158,7 +158,7 @@ The database comes with three default users (client, seller, and admin) and elev
   email: adm@deliveryapp.com
   password: --adm2@21!!--
   ```
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 #### Example of an `.env` file
 ```
@@ -171,7 +171,7 @@ MYSQL_PASSWORD=DBpassword
 MYSQL_DB_NAME=delivery-app
 EVAL_ALWAYS_RESTORE_DEV_DB=true
 ```
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 #### MySQL With Docker
 To use MySQL with Docker, you need to have Docker installed on your machine. To check if you have Docker installed, open the command prompt and type:
@@ -183,7 +183,7 @@ This command should return something similar to this:
 Once you have Docker installed, you can create the container with the following command. Remember to change the container name and password:
 `docker container run --name container-mysql -e MYSQL_ROOT_PASSWORD=senha-mysql -d -p 3306:3306 mysql:5.7`
 This command will create a MySQL container with the name `container-mysql`, set the root password to `senha-mysql`, and expose the MySQL port 3306 to your local port 3306.
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 
 <br/>
@@ -196,7 +196,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
   </summary><br>
   
-  **Parameters Example Values**
+  **Exemplo de Valores de Parâmetros**
   ```
   {
     "email": "zebirita@email.com",
@@ -208,7 +208,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
   <br />
 
 
-  **Responses**
+  **Respostas**
   
   Status: 200 OK
   ```
@@ -258,7 +258,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
   </summary><br>
   
-  **Parameters Example Values**
+  **Exemplo de Valores de Parâmetros**
   ```
   {
     "name": "New Name Example",
@@ -271,7 +271,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
   <br />
 
 
-  **Responses**
+  **Respostas**
   
   Status: 201 Created  
   ```
@@ -319,7 +319,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
   </summary><br>
   
-  **Responses**
+  **Respostas**
   
   Status: 200 OK
   ```
@@ -338,7 +338,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
   </summary><br>
   
-  **Parameters Example Values**
+  **Exemplo de Valores de Parâmetros**
   ```
   {
     "cart": [
@@ -369,7 +369,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
   <br />
 
 
-  **Responses**
+  **Respostas**
   
   Status: 201 Created
   ```
@@ -385,14 +385,14 @@ This command will create a MySQL container with the name `container-mysql`, set 
     /sale/orders
   </summary><br>
 
-  Orders Status:
+  Status dos pedidos:
   - "Pendente"
   - "Preparando"
   - "Em Trânsito"
   - "Entregue"
     
  
-  **Parameters Example Values**
+  **Exemplo de Valores de Parâmetros**
   ```
   {
     "saleId": 1, 
@@ -404,7 +404,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
   <br />
 
 
-  **Responses**
+  **Respostas**
   
   Status: 200 OK
   ```
@@ -418,7 +418,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">   
   </summary><br>
 
-  **Responses**
+  **Respostas**
   
   Status: 200 OK
   ```
@@ -447,7 +447,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     /sale/:id
   </summary><br>
 
-  **Responses**
+  **Respostas**
   
   Status: 200 OK
   ```
@@ -504,7 +504,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     /customer/products
   </summary><br>
 
-  **Responses**
+  **Respostas**
   
   Status: 200 OK
   ```
@@ -532,7 +532,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
   </summary><br>
   
-  **Headers Parameter**
+  **Parâmetros dos Headers**
   ```
   Authorization: JsonWebToken
   ```
@@ -541,7 +541,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
   <br />
 
 
-  **Responses**
+  **Respostas**
   
   Status: 200 OK
   ```
@@ -580,7 +580,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
   </summary><br>
   
-  **Headers Parameter**
+  **Parâmetros dos Headers**
   ```
   Authorization: JsonWebToken
   ```
@@ -589,7 +589,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
   <br />
 
 
-  **Responses**
+  **Respostas**
   
   Status: 200 OK
   ```
@@ -633,7 +633,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
   </summary><br>
  
-  **Headers Parameter**
+  **Parâmetros dos Headers**
   ```
   Authorization: JsonWebToken
   ```
@@ -642,7 +642,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
   <br />
 
 
-  **Parameters Example Values**
+  **Exemplo de Valores de Parâmetros**
   ```
   {
     "name": "New Name Example",
@@ -655,7 +655,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
   <br />
 
 
-  **Responses**
+  **Respostas**
   
   Status: 201 Created  
   ```
@@ -722,7 +722,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
     /admin/:id
   </summary><br>
   
-  **Headers Parameter**
+  **Parâmetros dos Headers**
   ```
   Authorization: JsonWebToken
   ```
@@ -731,7 +731,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
   <br />
 
   
-  **Responses**
+  **Respostas**
   
   Status: 201 Created
   ```
@@ -758,31 +758,31 @@ This command will create a MySQL container with the name `container-mysql`, set 
   ```
 </details>
 
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 
 <br/>
 
 
-### Tests
-To run the tests, open the terminal in both the front-end and back-end directories and type the command `npm test` or `npm run test`.
-Note that the front-end tests might fail due to missing `data-testid` attributes. The team removed some `data-testid` attributes after the development phase to focus on app design.
+### Testes
+Para executar os testes, abra o terminal nos diretórios front-end e back-end e digite o comando `npm test` ou `npm run test`.
+Observe que os testes do front-end podem falhar devido à falta de atributos `data-testid`. A equipe removeu alguns atributos `data-testid` após a fase de desenvolvimento para focar no design do aplicativo.
 
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 
 <br/>
 
 
 ## Figma Design
-The team created a project planning template on Figma, which you can access by clicking on this <a href="https://www.figma.com/file/8quEpcnij9tGUC6bPR2kgW/Delivery-App?node-id=0%3A1&t=Amq0MaEjctZb8nPa-1">link</a>.
+A equipe criou um modelo de planejamento de projeto no Figma, que você pode acessar clicando neste <a href="https://www.figma.com/file/8quEpcnij9tGUC6bPR2kgW/Delivery-App?node-id=0%3A1&t=Amq0MaEjctZb8nPa-1">link</a>.
 <details>
   <summary>
-    <strong>Image</strong>
+    <strong>Imagem</strong>
   </summary><br>
   <img src="https://user-images.githubusercontent.com/102390423/229236282-296acb2e-7827-4d8d-8c9f-9a6985ef262b.png" alt="figma design">
 </details>
-<p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a></p>
+<p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
 
 
 <br/>
@@ -829,4 +829,4 @@ The team created a project planning template on Figma, which you can access by c
     </td>
   </tr>
 </table>
-<a href="#sparkles-welcome-to-delivery-app-project-repository">(De volta ao topo)</a>
+<a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a>
