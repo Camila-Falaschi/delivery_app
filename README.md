@@ -107,12 +107,12 @@ However, its old system was a set of spreadsheets that is now unworkable for the
 
 
 ## Installation
-1. Clone the repository
+1. Clone the repository:
    - Use the command: `git clone git@github.com:Camila-Falaschi/delivery_app.git`
-   - Access the folder of the repository that you just cloned: `cd delivery_app`
+   - Navigate to the cloned repository folder: `cd delivery_app`
 
-2. Install the dependencies
-   - Use the command `npm install` in the root (`~/delivery_app`), front-end (`~/delivery_app/front-end`) and back-end (`~/delivery_app/back-end`) directrories.
+2. Install the dependencies:
+   - Run the command `npm install` in the root directory (`~/delivery_app`), front-end directory (`~/delivery_app/front-end`), and back-end directory (`~/delivery_app/back-end`).
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
 
 
