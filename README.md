@@ -304,6 +304,13 @@ After that you can create the container with the command below, don't forget to 
     "message": "Password must have at least 6 characters"
   }
   ```
+  
+  Status: 409 Conflict
+  ```
+  {
+    "message": "User already exist"
+  }
+  ```
 </details>
 
 #### `/seller`
@@ -384,6 +391,7 @@ After that you can create the container with the command below, don't forget to 
   - "Em Trânsito"
   - "Entregue"
     
+ 
   **Parameters Example Values**
   ```
   {
