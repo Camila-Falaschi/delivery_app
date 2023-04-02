@@ -765,7 +765,7 @@ This command will create a MySQL container with the name `container-mysql`, set 
 
 
 ### Tests
-To run the tests, open the terminal in both the front-end and back-end directories and type the command `ǹpm test` or `npm run test`.
+To run the tests, open the terminal in both the front-end and back-end directories and type the command `npm test` or `npm run test`.
 Note that the front-end tests might fail due to missing `data-testid` attributes. The team removed some `data-testid` attributes after the development phase to focus on app design.
 
 <p align="right"><a href="#sparkles-welcome-to-delivery-app-project-repository">(back to top)</a></p>
@@ -775,7 +775,7 @@ Note that the front-end tests might fail due to missing `data-testid` attributes
 
 
 ## Figma Design
-The team created an template on Figma for the planning of the project. You can acess it <a href="https://www.figma.com/file/8quEpcnij9tGUC6bPR2kgW/Delivery-App?node-id=0%3A1&t=Amq0MaEjctZb8nPa-1">here</a>.
+The team created a project planning template on Figma, which you can access by clicking on this <a href="https://www.figma.com/file/8quEpcnij9tGUC6bPR2kgW/Delivery-App?node-id=0%3A1&t=Amq0MaEjctZb8nPa-1">link</a>.
 <details>
   <summary>
     <strong>Image</strong>
