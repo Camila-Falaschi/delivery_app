@@ -18,7 +18,7 @@
 - [Sobre o projeto](#sobre-o-projeto)
   - [Um pouco de contexto](#um-pouco-de-contexto)
   - [Demo](#demo)
-- [Construído com](#construido-com)
+- [Construído com](#construído-com)
   - [Front-end](#front-end)
   - [Back-end](#back-end)
 - [Instalação](#instalação)
