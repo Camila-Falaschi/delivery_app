@@ -768,6 +768,7 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 
 ### Testes
 Para executar os testes, abra o terminal nos diretórios front-end e back-end e digite o comando `npm test` ou `npm run test`.
+
 Observe que os testes do front-end podem falhar devido à falta de atributos `data-testid`. A equipe removeu alguns atributos `data-testid` após a fase de desenvolvimento para focar no design do aplicativo.
 
 <p align="right"><a href="#sparkles-bem-vindo-ao-repositório-do-projeto-delivery-app">(De volta ao topo)</a></p>
