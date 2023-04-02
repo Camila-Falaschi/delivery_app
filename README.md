@@ -26,7 +26,7 @@
   - [Database](#database)
     - [ER Diagram](#er-diagram)
     - [Seeders](#seeders)
-    - [Example of an `.env` file](#env-file)
+    - [Example of an `.env` file](#example-of-an-env-file)
     - [MySQL With Docker](#docker-vs-local)
   - [API](#api)
   - [Tests](#tests)
