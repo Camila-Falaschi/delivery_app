@@ -196,6 +196,7 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
+    (Clique aqui para ver mais ↴).
   </summary><br>
   
   **Exemplo de Valores de Parâmetros**
@@ -258,6 +259,7 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
+    (Clique aqui para ver mais ↴).
   </summary><br>
   
   **Exemplo de Valores de Parâmetros**
@@ -319,6 +321,7 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
+    (Clique aqui para ver mais ↴).
   </summary><br>
   
   **Respostas**
@@ -338,6 +341,7 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
+    (Clique aqui para ver mais ↴).
   </summary><br>
   
   **Exemplo de Valores de Parâmetros**
@@ -383,6 +387,7 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229361492-4190f567-633e-4812-bbf9-8a6e3eea9292.png" alt="put icon" width="80">   
+    (Clique aqui para ver mais ↴).
     
     /sale/orders
   </summary><br>
@@ -417,7 +422,8 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 </details>
 <details>
   <summary>
-    <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">   
+    <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
+    (Clique aqui para ver mais ↴).
   </summary><br>
 
   **Respostas**
@@ -445,7 +451,8 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
-        
+    (Clique aqui para ver mais ↴).
+    
     /sale/:id
   </summary><br>
 
@@ -502,6 +509,7 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">   
+    (Clique aqui para ver mais ↴).
     
     /customer/products
   </summary><br>
@@ -532,6 +540,7 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
+    (Clique aqui para ver mais ↴).
   </summary><br>
   
   **Parâmetros dos Headers**
@@ -580,6 +589,7 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229258187-e98c5da1-2ec0-44be-9598-03f84a042d17.png" alt="get icon" width="80">
+    (Clique aqui para ver mais ↴).
   </summary><br>
   
   **Parâmetros dos Headers**
@@ -633,6 +643,7 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229256445-34c267eb-f1e0-417c-be9f-e948c384b3de.png" alt="post icon" width="80">
+    (Clique aqui para ver mais ↴).
   </summary><br>
  
   **Parâmetros dos Headers**
@@ -720,7 +731,8 @@ Este comando criará um contêiner MySQL com o nome `container-mysql`, irá defi
 <details>
   <summary>
     <img src="https://user-images.githubusercontent.com/102390423/229363520-c54cf826-9995-48ae-9547-bf4c0f658d56.png" alt="get icon" width="80">
-        
+    (Clique aqui para ver mais ↴).
+    
     /admin/:id
   </summary><br>
   
